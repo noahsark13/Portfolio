@@ -1,0 +1,15 @@
+C:\Users\Noah\Desktop\REPOS\105\PEs\CustomStacksAndQueues\bin\Debug\net6.0\CustomStacksAndQueues.exe
+C:\Users\Noah\Desktop\REPOS\105\PEs\CustomStacksAndQueues\bin\Debug\net6.0\CustomStacksAndQueues.deps.json
+C:\Users\Noah\Desktop\REPOS\105\PEs\CustomStacksAndQueues\bin\Debug\net6.0\CustomStacksAndQueues.runtimeconfig.json
+C:\Users\Noah\Desktop\REPOS\105\PEs\CustomStacksAndQueues\bin\Debug\net6.0\CustomStacksAndQueues.dll
+C:\Users\Noah\Desktop\REPOS\105\PEs\CustomStacksAndQueues\bin\Debug\net6.0\CustomStacksAndQueues.pdb
+C:\Users\Noah\Desktop\REPOS\105\PEs\CustomStacksAndQueues\obj\Debug\net6.0\CustomStacksAndQueues.csproj.AssemblyReference.cache
+C:\Users\Noah\Desktop\REPOS\105\PEs\CustomStacksAndQueues\obj\Debug\net6.0\CustomStacksAndQueues.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Noah\Desktop\REPOS\105\PEs\CustomStacksAndQueues\obj\Debug\net6.0\CustomStacksAndQueues.AssemblyInfoInputs.cache
+C:\Users\Noah\Desktop\REPOS\105\PEs\CustomStacksAndQueues\obj\Debug\net6.0\CustomStacksAndQueues.AssemblyInfo.cs
+C:\Users\Noah\Desktop\REPOS\105\PEs\CustomStacksAndQueues\obj\Debug\net6.0\CustomStacksAndQueues.csproj.CoreCompileInputs.cache
+C:\Users\Noah\Desktop\REPOS\105\PEs\CustomStacksAndQueues\obj\Debug\net6.0\CustomStacksAndQueues.dll
+C:\Users\Noah\Desktop\REPOS\105\PEs\CustomStacksAndQueues\obj\Debug\net6.0\refint\CustomStacksAndQueues.dll
+C:\Users\Noah\Desktop\REPOS\105\PEs\CustomStacksAndQueues\obj\Debug\net6.0\CustomStacksAndQueues.pdb
+C:\Users\Noah\Desktop\REPOS\105\PEs\CustomStacksAndQueues\obj\Debug\net6.0\CustomStacksAndQueues.genruntimeconfig.cache
+C:\Users\Noah\Desktop\REPOS\105\PEs\CustomStacksAndQueues\obj\Debug\net6.0\ref\CustomStacksAndQueues.dll

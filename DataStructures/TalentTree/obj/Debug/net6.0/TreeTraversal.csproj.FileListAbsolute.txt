@@ -1,0 +1,15 @@
+C:\Users\Noah\Desktop\REPOS\106\PEs\TreeTraversal\bin\Debug\net6.0\TreeTraversal.exe
+C:\Users\Noah\Desktop\REPOS\106\PEs\TreeTraversal\bin\Debug\net6.0\TreeTraversal.deps.json
+C:\Users\Noah\Desktop\REPOS\106\PEs\TreeTraversal\bin\Debug\net6.0\TreeTraversal.runtimeconfig.json
+C:\Users\Noah\Desktop\REPOS\106\PEs\TreeTraversal\bin\Debug\net6.0\TreeTraversal.dll
+C:\Users\Noah\Desktop\REPOS\106\PEs\TreeTraversal\bin\Debug\net6.0\TreeTraversal.pdb
+C:\Users\Noah\Desktop\REPOS\106\PEs\TreeTraversal\obj\Debug\net6.0\TreeTraversal.csproj.AssemblyReference.cache
+C:\Users\Noah\Desktop\REPOS\106\PEs\TreeTraversal\obj\Debug\net6.0\TreeTraversal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Noah\Desktop\REPOS\106\PEs\TreeTraversal\obj\Debug\net6.0\TreeTraversal.AssemblyInfoInputs.cache
+C:\Users\Noah\Desktop\REPOS\106\PEs\TreeTraversal\obj\Debug\net6.0\TreeTraversal.AssemblyInfo.cs
+C:\Users\Noah\Desktop\REPOS\106\PEs\TreeTraversal\obj\Debug\net6.0\TreeTraversal.csproj.CoreCompileInputs.cache
+C:\Users\Noah\Desktop\REPOS\106\PEs\TreeTraversal\obj\Debug\net6.0\TreeTraversal.dll
+C:\Users\Noah\Desktop\REPOS\106\PEs\TreeTraversal\obj\Debug\net6.0\refint\TreeTraversal.dll
+C:\Users\Noah\Desktop\REPOS\106\PEs\TreeTraversal\obj\Debug\net6.0\TreeTraversal.pdb
+C:\Users\Noah\Desktop\REPOS\106\PEs\TreeTraversal\obj\Debug\net6.0\TreeTraversal.genruntimeconfig.cache
+C:\Users\Noah\Desktop\REPOS\106\PEs\TreeTraversal\obj\Debug\net6.0\ref\TreeTraversal.dll
