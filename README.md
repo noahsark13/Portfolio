@@ -1,6 +1,6 @@
 # My Portfolio
 
-This portfolio is intended to showcase my current proficiency using Object Oriented Programming languages such as C# (which most of my code consists of).
+This portfolio is intended to showcase my current programming proficiency, mainly that with Object Oriented Programming languages such as C# (which most of my code consists of).
 
 The "DungeonCode" folder contains the direct cs files that I personally worked on within my last academic group project "Beat the Dungeon". You can also view the full game within the "BeatTheDungeonFull" folder.
 
