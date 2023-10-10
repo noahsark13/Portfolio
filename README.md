@@ -1,4 +1,7 @@
 # My Portfolio
+Contact Info:
+Email: nhk3466@rit.edu
+Linkedin: https://www.linkedin.com/in/noahkasper/
 
 This portfolio is intended to showcase my current programming proficiency, mainly that with Object Oriented Programming languages such as C# (which most of my code consists of).
 
