@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation</title>
+</head>
+<body>
+    <header>
+        <h1>
+            DOCUMENTATION PROCESS
+        </h1>
+    </header>
+    <main>
+        Started off by setting up the basic UI structure using html and css. I decided a grid layout for the main portion would work well, representing a design similar to the traditional pokedex in the pokemon games.
+
+        <br>
+        Started on functionality by using some left over javascript from the giphy assignment. After looking back over it, I've come to understand the basics of API requesting, and their asynchronous functionality.
+
+        <br>
+        Using previous coding knowledge, I looked up how to code certain functionalities using stackoverflow and other javascript resources. Using this, I built the various different chunks of my page, using continuous API gets.
+        Ran into several bugs since you can't return specific data from httprequest .onload functions. Would have to use callback functions to achieve a somewhat expected result.
+
+        <br>
+        Continued to same process for various parts of my page, getting different api data, then constructing new html elements with said information.
+
+        <br>
+        Found issues again when generating the display for all current pokemon. Building a long string every load was far too intensive on the page, causing it to have to load for a solid 5 seconds, before everything became function.
+        To get around this, I built individual divs and appended them, resulting in a much faster load speed.
+
+        <br>
+        Then added visual design to the layout, finishing up the project.
+
+        <h2>
+            Sources
+        </h2>
+        <a href="https://stackoverflow.com">Stack Overflow (various debugging and code help)</a><br>
+        <a href="https://developer.mozilla.org/en-US/">Mozilla (more debugging and code help)</a><br>
+        <a href="https://www.w3schools.com">W3schools (css help)</a><br>
+        <a href="https://pokeapi.co">PokeAPI (API Debugging)</a><br>
+        <a href="https://www.google.com">Google (Random images)</a>
+
+
+        <h2>
+            Special Notes
+        </h2>
+        Click the favorite button on the big pokemon sprite panel. It will then update the pokemon list, generally bringing your favorite pokemon to the top of the list.<br>
+        Pretty proud of the multi GETing the API, where I chain various API links within acquired objects. This was used to get things like the description, and the abilities list.<br>
+        Also I'm using some kind of webkit to hide the scroll bars to make the UI more aesthetically pleasing, it throws a warning, but its worth it (as long as I dont lose points D:).<br>
+        Bonus note: I forgot to link to this doc on my project page. Was dealing with a bunch of bugs it kinda just flew over my head. It will be available when you eventually go and check the banjo page, but wont be in the zip. Lmk if you need a new zip file.
+        
+        <h2>
+            Meeting the Requirements
+        </h2>
+        I have 4 controls present on my page: The search bar, the amount of abilities to be displayed pull-down selector, the Shiny checkbox, and a favorite button.<br>
+        My website successfuly grabs information from POKEAPI and displays it in a complex way. <br>
+        Search term and favorites are saved and loaded.<br>
+        There are no JavaScript errors unless you enter a invalid search term. This is because the url itself will be invalid. I technically "catch" the error, but it is still displayed. From what I looked up, there seems to be no solution.<br>
+        HTML and CSS are both valid. CSS has 3 warnings, but those are all from a webkit I use to hide the scroll bars.<br>
+        I think the page is pretty self explanitary.<br>
+        Message displayed when search term is invalid<br>
+        Semi-responsive<br>
+        Code convention is somewhat followed<br>
+        Looks visually nice<br>
+
+        <h2>
+            Personal Grade
+        </h2>
+        I'd give myself atleast a A- on this assignment. Even though I'm missing a few minuscule things rubric wise, I think I hit the core parts of this project on the head. I'd personally raise it to an A, I feel like I put in A level work ethic to make this webpage not just be a simple carbon copy giphy finder. 
+
+        <br><br>
+
+        <a href="index.html">Link back to main page</a>
+
+    
+        
+        
+    </main>
+    
+</body>
+</html>

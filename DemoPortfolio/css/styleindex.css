@@ -1,0 +1,584 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+/* head */
+header {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+
+}
+
+#background {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+
+}
+
+#background img {
+    width: 100%;
+    height: auto;
+
+}
+
+/* top bar */
+#bar-left #logo {
+    width: 80px;
+    height: 55px;
+}
+
+#bar-left {
+    position: absolute;
+    height: 8vh;
+    align-items: center;
+    display: flex;
+    padding: 30px;
+    left: 0;
+    gap: 25px;
+}
+
+#bar-left a,
+#bar-left p {
+    font-family: 'Gabarito', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+#bar-left a:hover,
+#bar-left a:hover {
+    font-weight: bold;
+}
+
+#bar-left a:active {
+    color: rgb(148, 148, 148);
+}
+
+#nametitle {
+
+    position: absolute;
+
+    width: 80%;
+    margin-top: 40vh;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: rgb(255, 255, 255);
+
+}
+
+#nametitle h1 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 7em;
+    margin: 0;
+
+}
+
+#nametitle p {
+    font-size: 2em;
+    margin: 0;
+}
+
+
+
+/* portfolio */
+#portfolio {
+    height: 175vh;
+    width: auto;
+
+}
+
+
+#porttext1 {
+
+    font-family: 'Work Sans', sans-serif;
+    color: rgb(166, 114, 61);
+    text-align: center;
+    letter-spacing: .4em;
+    margin: 90px 0px 20px 0px;
+
+
+
+
+}
+
+#porttext2 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 5em;
+    color: rgb(46, 46, 46);
+    text-align: center;
+    margin: 0px 0px 30px 0px;
+
+
+
+}
+
+
+
+/* gal */
+#gallery {
+
+    font-family: 'Gabarito', sans-serif;
+    color: rgb(0, 0, 0);
+
+    height: 115vh;
+    width: 80%;
+    margin: auto;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 40px;
+
+
+}
+
+.row1,
+.row2,
+.row3 {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 40%;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.photo {
+    width: 65%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    transition: height 0.2s ease-out;
+
+}
+
+.photo:hover {
+    height: 105%;
+
+}
+
+.photo img {
+
+    filter: grayscale(100%);
+    transition: filter 0.2s ease-out;
+    height: auto;
+    width: 100%
+}
+
+.photo img:hover {
+    filter: grayscale(0%);
+}
+
+.title {
+
+    font-family: 'Work Sans', sans-serif;
+    font-size: 3em;
+    color: rgb(255, 188, 121);
+
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    padding: 20px;
+
+}
+
+.description {
+    width: 30%;
+}
+
+.description div {
+    font-size: 1.2em;
+}
+
+#git {
+
+    width: 100%;
+    margin: 0;
+}
+
+#git a {
+    color: rgb(0, 0, 0);
+}
+
+#git a:link {
+    color: rgb(0, 0, 0);
+}
+
+#git a:visited {
+    color: rgb(166, 114, 61);
+}
+
+#git a:focus {
+    font-weight: bold;
+    color: rgb(46, 46, 46);
+}
+
+#git a:hover {
+    font-weight: bold;
+    color: rgb(46, 46, 46);
+}
+
+#git a:active {
+    color: rgb(179, 179, 179);
+}
+
+
+
+
+/* about */
+
+#about {
+    height: 80vh;
+    width: auto;
+    background-color: rgb(46, 46, 46);
+    border: 1px solid rgb(46, 46, 46);
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+#about h2 {
+
+    font-family: 'Work Sans', sans-serif;
+    color: rgb(255, 188, 121);
+    text-align: center;
+    letter-spacing: .4em;
+    margin: 160px 0px 20px 0px;
+
+}
+
+#about h1 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 5em;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0px;
+
+}
+
+#about p {
+    font-family: 'Gabarito', sans-serif;
+    color: gray;
+    font-size: 1.8em;
+    line-height: 1.5em;
+    text-align: center;
+
+    width: 60%;
+    margin: 45px auto auto auto;
+}
+
+/* clients */
+
+#clients {
+    height: 70vh;
+    width: auto;
+    background-color: rgb(41, 41, 41);
+
+    overflow: hidden;
+
+
+
+}
+
+#clientbackground {
+
+    background-color: rgb(71, 71, 71);
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+
+
+}
+
+#clientbackground>img {
+
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+
+
+}
+
+#clientbackground>div {
+    height: 100%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    position: absolute;
+
+}
+
+#clientbackground>div h2 {
+
+    font-family: 'Work Sans', sans-serif;
+    color: rgb(255, 188, 121);
+    text-align: center;
+    letter-spacing: .4em;
+    margin: 140px 0px 20px 0px;
+
+
+}
+
+#clientbackground>div h1 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 5em;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0px;
+
+}
+
+#companycontainer {
+
+    display: flex;
+    width: 90%;
+    margin: 80px auto auto auto;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+
+    display: flex;
+    align-items: center;
+
+}
+
+.logo img {
+    width: 200px;
+
+}
+
+/* footer */
+
+footer {
+
+    height: 30vh;
+    background-color: black;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+footer>img {
+    width: 70px;
+    height: 70px;
+}
+
+
+#copyright {
+    font-family: 'Gabarito', sans-serif;
+    color: white;
+}
+
+#socials {
+    display: flex;
+    gap: 20px;
+}
+
+#socials img {
+    width: 30px;
+    height: 30px;
+}
+
+
+@media only screen and (max-width: 1425px) {
+
+    #background img {
+        width: auto;
+        height: 100%;
+    }
+}
+
+
+
+@media only screen and (max-width: 1210px) {
+
+    .photo img {
+        height: 100%;
+        width: auto;
+    }
+
+
+    #about p {
+
+        font-size: 1.8em;
+        line-height: 1.5em;
+        text-align: center;
+
+        width: 80%;
+        margin: 45px auto auto auto;
+    }
+
+
+    #companycontainer {
+        display: flex;
+        width: 90%;
+        margin: 20px auto auto auto;
+        justify-content: space-between;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+    .logo {
+        height: 150px;
+    }
+
+    #clientbackground>img {
+
+        height: 100%;
+        width: auto;
+        position: absolute;
+        overflow: hidden;
+
+    }
+
+}
+
+@media only screen and (max-width: 830px) {
+
+
+
+    #nametitle h1 {
+        font-family: 'Noto Sans JP', sans-serif;
+        font-size: 4em;
+        margin: 0;
+
+    }
+
+    #nametitle p {
+        font-size: 2em;
+        margin: 0;
+    }
+
+
+    #bar-left {
+        position: absolute;
+        height: auto;
+        align-content: flex-start;
+
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        gap: 0px;
+    }
+
+    #bar-left p {
+        margin: 0px;
+        height: 1em;
+        line-height: 1em;
+
+    }
+
+
+    #gallery {
+        height: 115vh;
+        width: 90%;
+        margin: auto;
+
+        display: flex;
+
+
+        align-content: top;
+        justify-content: space-between;
+        flex-direction: column;
+
+    }
+
+    .row1,
+    .row2,
+    .row3 {
+
+        flex-direction: column;
+        width: 100%;
+        height: 50%;
+
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .row2 {
+        flex-direction: column-reverse;
+    }
+
+    .description {
+        width: auto;
+        height: 50%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+
+    .photo {
+        width: 90%;
+        height: 200px;
+    }
+
+    .photo img {
+        height: auto;
+        width: 100%;
+    }
+
+    .title {
+        font-size: 2em;
+    }
+
+
+    #about p {
+
+        font-size: 1.3em;
+        line-height: 1.5em;
+        text-align: center;
+
+        width: 80%;
+        margin: 45px auto auto auto;
+    }
+
+
+    #companycontainer {
+
+        display: flex;
+        width: 90%;
+        margin: 20px auto auto auto;
+        justify-content: space-around;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+    .logo {
+        width: 150px;
+        height: 100px;
+
+        display: flex;
+        align-items: center;
+
+    }
+
+    .logo img {
+        width: 100px;
+
+
+
+    }
+
+
+}

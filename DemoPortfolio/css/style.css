@@ -1,0 +1,311 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+/* head */
+header {
+    height: 75vh;
+    background-color: black;
+}
+header img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/* top bar */
+#bar-left #logo {
+    width: 80px;
+    height: 80px;
+}
+#bar-left {
+    position: absolute;
+    height: 8vh;
+    align-items: center;
+    display: flex;
+    padding: 30px;
+    gap: 25px;
+}
+#bar-left a, #bar-left p{
+    font-family: 'Gabarito', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+
+#bar-right 
+{
+    position:absolute;
+    height: 8vh;
+    align-items: center;
+    display: flex;
+    padding: 30px;
+    right:0;
+    gap: 25px;
+    
+}
+#search, #weirdboxthing {
+    width: 30px;
+    height: 30px;
+}
+
+
+/* portfolio */
+#portfolio {
+    height: 175vh;
+    width: auto;
+
+}
+
+
+#porttext1{
+
+    font-family: 'Work Sans', sans-serif;
+    color: rgb(166, 114, 61);
+    text-align: center;
+    letter-spacing: .4em;
+    margin:90px 0px 20px 0px;
+   
+
+    
+    
+}
+#porttext2{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 5em;
+    color: rgb(46, 46, 46);
+    text-align: center;
+    margin:0px;
+    
+    
+    
+}
+
+#portmenu {
+    display:flex;
+    justify-content: space-around;
+    width: 35vh;
+    margin: 35px auto 50px auto;
+}
+#portmenu a {
+    font-family: 'Gabarito', sans-serif;
+    color: gray;
+    text-decoration: none;
+  
+}
+#portmenu a:hover {
+    color:rgb(46, 46, 46);
+    font-weight: bold;
+}
+
+
+/* gal */
+#gallery{
+    height: 115vh;
+    width: 80%;
+    margin: auto;
+    
+    display:flex;
+
+    align-content: space-between;
+    justify-content: space-between;
+
+    
+}
+.row1,.row3 {
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+    gap:25px;
+    justify-content: center;
+}
+.row2 {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 32%;
+    gap:25px;
+}
+
+
+.photo {
+    height: 37%;
+    overflow: hidden;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.squished {
+    height: 26%;
+    overflow: hidden;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#loadbutton {
+    background-color: rgb(46, 46, 46);
+    margin: 100px auto auto auto;
+    height: 3em;
+    width: 190px;
+    border-radius: 25px;
+
+    font-family: 'Gabarito', sans-serif;
+    text-align: center;
+    line-height: 3em;
+    color: white;
+
+}
+
+/* about */
+
+#about {
+    height: 80vh;
+    width: auto;
+    background-color: rgb(46, 46, 46);
+    border: 1px solid rgb(46, 46, 46);
+    
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+#about h2{
+
+    font-family: 'Work Sans', sans-serif;
+    color: rgb(255, 188, 121);
+    text-align: center;
+    letter-spacing: .4em;
+    margin:160px 0px 20px 0px;
+    
+}
+#about h1{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 5em;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin:0px;
+
+}
+#about p {
+    font-family: 'Gabarito', sans-serif;
+    color:gray;
+    font-size: 1.8em;
+    line-height: 1.5em;
+    text-align: center;
+
+    width: 60%;
+    margin:45px auto auto auto;
+}
+
+/* clients */
+
+#clients {
+    height: 70vh;
+    width: auto;
+    background-color: rgb(41, 41, 41);
+   
+    overflow: hidden;
+
+    
+    
+}
+
+#clientbackground {
+    
+    background-color: rgb(71, 71, 71);
+    height:100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    
+    
+}
+#clientbackground img {
+ 
+    position: absolute;
+    overflow: hidden;
+  
+    
+}
+#clientbackground span {
+    height:100%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    position:absolute;
+ 
+}
+
+#clientbackground span h2{
+
+    font-family: 'Work Sans', sans-serif;
+    color: rgb(255, 188, 121);
+    text-align: center;
+    letter-spacing: .4em;
+    margin:140px 0px 20px 0px;
+
+    
+}
+#clientbackground span h1{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 5em;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin:0px;
+
+}
+#companycontainer{
+
+    display: flex;
+    width: 90%;
+    margin: 80px auto auto auto;
+    justify-content: space-between;
+    align-content: center;
+}
+.logo {
+    width: 200px;
+    height: 200px;
+
+    display: flex;
+    align-items: center;
+    
+}
+.logo img{
+    width: 200px;
+  
+
+    
+}
+    
+/* footer */
+
+footer {
+
+    height: 30vh;
+    background-color: black;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+   
+}
+
+
+#copyright {
+    font-family: 'Gabarito', sans-serif;
+    color:white;
+}
+
+#socials {
+    display: flex;
+    gap: 20px;
+}

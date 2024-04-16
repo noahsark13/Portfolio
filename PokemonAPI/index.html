@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Square&family=Rajdhani&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <header>
+        <div id = "pokeImage">
+            <img src = "images/pokedex.png" alt = "Pokedex logo">
+        </div>
+    </header>
+    <main>
+        <div id="search">
+            Name/Id:
+            <input id="searchterm" type="text" size="40" maxlength="20" autofocus value="bulbasaur">
+
+            # Abilities:
+            <select id="abilities">
+                <option value="5" selected>5</option>
+                <option value="10">10</option>
+                <option value="20">20</option>
+                <option value="40">40</option>
+                <option value="80">80</option>
+                <option value="160">160</option>
+            </select>
+
+            Shiny:
+            <input id="shiny" type="checkbox">
+
+            <button id="searchbutton">
+                SEARCH
+            </button>
+        </div>
+
+        <div id="display">
+             <div id="head">
+                MISSINGNO | #0
+             </div>
+             <div id="sprite">
+
+
+                <img id="favstar" src="images/star.png" alt="a star">
+
+                <div id="typeHolder"></div>
+
+                <div id="spriteContainer">
+                    <img id="spriteimg" src="images/missingno.webp" alt="missing">
+                </div>
+                
+             </div>
+             <div id="stats">
+                <h2>STATS</h2>
+                <div id="statContainer"></div>
+                
+             </div>
+
+             <div id="moves">
+                <h2>MOVES</h2>
+
+                <div id="moveContainer"></div>
+                
+             </div>
+
+             <div id="favs">
+                <div id="pokecontainer">
+           
+                </div>
+             </div>
+
+             <div id="desc">
+                <h2>DESCRIPTION</h2>
+               
+
+                <p id="flavortext">
+                    
+                </p>
+             </div>
+        </div>
+
+    </main>
+    <footer>    
+        <a href="doc.html">Link to Document Page</a>
+    </footer>
+
+
+</body>
+</html>
