@@ -1,4 +1,4 @@
-# Project BOMBS AWAY
+# Project Rats and Cats
 
 [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet)
 
@@ -7,44 +7,131 @@
 -   Name: Noah Kasper
 -   Section: 04
 
-## Game Design
+## Simulation Design
 
--   Camera Orientation: I plan for the game to eventually be viewed from the side (when I find good assets).
--   Camera Movement: Camera does not move, but gameplay looks as if the camera is flying along side the plane.
--   Player Health: A healthbar that indicates damage to the hull, there will be ways to fix it by picking up items mid game.
--   End Condition: The game goes on infinitely, scaling in difficulty until the player eventually dies.
--   Scoring: Destroying enemy pilots, picking up debris, and completion of a phase.
-
-### Game Description
-
-World War II styled SHMUP based around dodging the attacks of enemy dog fighters as you traverse the skies of a raging conflict. Take to the skies and fight for freedom: score points by destroying enemy combatants, upgrade your fighter jet with salvaged scrap, hone your flight skills as the stakes increase every round, and fight until your last breath. Do you have what it takes to be an ace pilot?
-
+Rats have invaded your lovely home... There is only one answer. CATS! Unleash your friendly felions on these annoying little miscreants and place traps to make em watch where they step! But be careful, don't accidentally drop your food, or you may just help the little fellas become more than even you can handle..
 
 ### Controls
 
--   Movement
-    -   Up: W
-    -   Down: A
-    -   Left: S
-    -   Right: D
--   Fire: Hold Rightclick
 
-## You Additions
+Click: drop some rat trap that rats will avoid.
+        drop a magical piece of cheese that will summon a "rat king" (clumps rats together into a flock).
 
-Unique enemies and projectiles that interact with the player differently as you progress further in the game. If I have enough time I'd like to implement a simple upgrade system that enhances the players plane: different weapons, extra armor, etc
+## Rat
+
+A rat is the basic wanderer of my game. They wander the area until disrupted by some kind of factor.
+
+### Wander State
+
+**Objective:** Rat wanders in a psuedo random fashion around the area.
+
+#### Steering Behaviors
+
+Seeks to a "smooth" random future position.
+Avoids dangerous objects it doesnt want to run into.
+Separate from other rats.
+   
+#### State Transistions
+
+When no cats are in proximity.
+When ratking effect runs out.
+   
+### Flee
+
+**Objective:** Flee away from cats chasing the rat.
+
+#### Steering Behaviors
+
+Flees the cat in whatever possible direction.
+Separate from rats currently targetting the rat.
+   
+#### State Transistions
+
+When cat gets in proximity of rat.
+
+### Cheese
+
+**Objective:** Seek to a dropped piece of cheese.
+
+#### Steering Behaviors
+
+Seeks towards the cheese.
+   
+#### State Transistions
+
+A cheese gets dropped on the floor.
+
+### RatKing
+
+**Objective:** Fight back against the cats as a collective rat king.
+
+#### Steering Behaviors
+
+Seeks towards the closest cat.
+Flocking behaviors (Alignment and cohesion).
+Separate from other rats.
+   
+#### State Transistions
+
+Then the rats surround the cheese in cheese state
+
+## Cat
+
+Represents a cat which hunts rats.
+
+### Chase
+
+**Objective:** Chases rats around the living room.
+
+#### Steering Behaviors
+
+- Locks onto the closest rat in radius, then seeks that rat until it escapes its predatorial instinct.
+- Avoids other cats.
+   
+#### State Transistions
+
+Rat enters radius.
+   
+### Wander
+
+**Objective:** Wanders around searching for rats
+
+#### Steering Behaviors
+
+Wanders
+Seperates from other cats.
+Avoids traps
+   
+#### State Transistions
+
+No rats in proximity to target on.
+No longer threatened by rat king.
+
+### Flee
+
+**Objective:** Flee the rat king
+
+#### Steering Behaviors
+
+Flees the colletive center of the rats
+   
+#### State Transistions
+
+When rats become a rat king.
 
 ## Sources
 
-https://jimhatama.itch.io/ww2-aircrafts?download
+https://stendhalgame.org/creature/giantrat.html
+https://opengameart.org/content/cats-rework
 
--   _List all project sources here –models, textures, sound clips, assets, etc._
--   _If an asset is from the Unity store, include a link to the page and the author’s name_
+## Make it Your Own
+
+- Simple player interaction: place traps (objects you need to avoid)
+- Advanced player interaction that attracts rats to one area, then transitions all agents to different states: the rats forming a collective flock, while the cats now flee from the rat clump.
+- More than expected states
+
 
 ## Known Issues
 
-_List any errors, lack of error checking, or specific information that I need to know to run your program_
-
-### Requirements not completed
-
-_If you did not complete a project requirement, notate that here_
+Generally messy coding. Could of been way better implemented by just didn't have the time. When the rat clump comes together it begins to follow a circular path. Honestly have no idea why.
 
