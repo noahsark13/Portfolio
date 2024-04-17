@@ -11,4 +11,4 @@ The "Algorithms" folder contains various programs that display my knowledge in t
 
 Everything else included are various Unity and HTML/CSS Projects
 
-**You can find a comprehensive video display of these projects in action by downloading the "DemoVideo.mp4" file.**
+**You can find a comprehensive video display of these projects in action by visiting this youtube link: https://youtu.be/Y_DDp5OzUzM**
